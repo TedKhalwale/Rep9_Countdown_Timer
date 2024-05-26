@@ -1,0 +1,55 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+#countdown {
+    font-size: 36px;
+    margin-top: 50px;
+    color: aqua;
+}
+
+.home {
+    background-image: url(../media/pics/pawel-czerwinski-5x7kyu3J4Xs-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.home-text {
+    margin-top: 23vh;
+}
+
+.home-text h1 {
+    font-size: 60px;
+    color: aqua;
+}
+.home-text h3 {
+    font-size: 35px;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+
+button {
+    height: 35px;
+    width: 150px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: aqua;
+    border: 1px solid black;
+    transition: .3s;
+
+}
+
+
+
