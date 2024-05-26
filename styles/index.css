@@ -51,5 +51,24 @@ button:hover {
 
 }
 
+@media (max-width: 600px) {
+    #countdown {
+        font-size: 24px;
+    }
+    #inputNumber, button {
+        font-size: 16px;
+    }
+    .home {
+        background-image: url(../media/pics/pawel-czerwinski-5x7kyu3J4Xs-unsplash.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .home-text {
+        margin-top: 10vh;
+    }
 
+}
 
